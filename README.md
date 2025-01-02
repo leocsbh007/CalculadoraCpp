@@ -58,7 +58,7 @@ Siga os passos abaixo para compilar e executar o programa no seu ambiente:
 2. **Clone este repositório no seu computador:**  
    Abra o terminal ou prompt de comando e execute:  
    ```bash
-   git clone https://github.com/seu-usuario/aula-variaveis-calculadora.git
+   git clone https://github.com/leocsbh007/CalculadoraCpp.git
    cd aula-variaveis-calculadora
 
 3. **Compile o código-fonte usando o g++:
@@ -69,7 +69,8 @@ Siga os passos abaixo para compilar e executar o programa no seu ambiente:
 4. ***Execute o programa no terminal:
     Digite  o comando abaixo para rodar o executável:
     ./calculadora
-5. **Teste e divirta-se!
+   
+6. **Teste e divirta-se!
 Digite dois números quando solicitado e veja a mágica acontecer! 🎉
 
 
@@ -96,6 +97,6 @@ Se você tiver ideias, melhorias ou até encontrou um bug (a nossa calculadora a
 E aí, curtiu? Deixe uma estrelinha ⭐ no repositório! Cada apoio nos motiva ainda mais! ❤️  
 
 ## **🎬 Acompanhe a aula completa!**  
-Se quiser acompanhar a explicação do código em detalhes, assista ao vídeo da aula [aqui](#).  
+Se quiser acompanhar a explicação do código em detalhes, assista ao vídeo da aula [aqui](https://youtu.be/1AxUryyRA3g?si=Co9xUD2szxiQic6x).  
 
 Até a próxima, programadores! 😎
