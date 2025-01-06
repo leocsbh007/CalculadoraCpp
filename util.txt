@@ -1,0 +1,6 @@
+Objetivos da Aula:
+
+1 - Compreender Operadores Matemáticos: Demonstrar como utilizar operadores básicos (+, -, *, /) em cálculos no C++.
+2 - Aprender o Uso de Condicionais: Ensinar como usar estruturas de decisão (if, else if, else) para controlar o fluxo do programa com base nas escolhas do usuário.
+3 - Construir uma Calculadora Interativa: Desenvolver um programa funcional onde o usuário escolhe a operação desejada e fornece os números para o cálculo.
+4 - Tratar Erros de Entrada: Mostrar como validar condições, como evitar divisão por zero e lidar com operadores inválidos, exibindo mensagens claras ao usuário.

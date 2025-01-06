@@ -91,6 +91,88 @@ Na próxima aula, vamos:
 Então, fique ligado, porque o aprendizado não para por aqui! 🚀  
 
 
+
+# **Aula 4: Operadores e Condicionais com uma Calculadora Interativa** 🎥🧮  
+
+---
+
+## **Bem-vindo! 👋**  
+Este repositório contém o código e os exemplos da **Aula 4** do nosso curso de C++! Nesta aula, levamos a nossa calculadora a outro nível, introduzindo:  
+- **Operadores matemáticos em C++**: `+`, `-`, `*`, `/`  
+- **Estruturas condicionais**: `if`, `else if`, e `else`  
+- **Tratamento de casos especiais**: como divisão por zero e operadores inválidos  
+
+Agora, nossa calculadora é interativa e realiza operações variadas! 💡  
+
+---
+
+## **📂 O que você encontra aqui**  
+- **`calculadora_interativa.cpp`**: O código-fonte da calculadora expandida.  
+- **Notas de Aula**: Explicações sobre operadores, condicionais e boas práticas de programação.  
+- **Este README**: Instruções para rodar o código e aprender com ele.  
+
+---
+
+## **📜 Código Resumido**  
+Confira o núcleo do nosso programa:  
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    double numero1, numero2, resultado;
+    char operador;
+
+    cout << "Bem-vindo à Calculadora Interativa!\n";
+    cout << "Digite dois números e escolha uma operação (+, -, *, /).\n";
+
+    cout << "Digite o primeiro número: ";
+    cin >> numero1;
+
+    cout << "Digite o operador (+, -, *, /): ";
+    cin >> operador;
+
+    cout << "Digite o segundo número: ";
+    cin >> numero2;
+
+    if (operador == '+') {
+        resultado = numero1 + numero2;
+    } else if (operador == '-') {
+        resultado = numero1 - numero2;
+    } else if (operador == '*') {
+        resultado = numero1 * numero2;
+    } else if (operador == '/') {
+        if (numero2 != 0) {
+            resultado = numero1 / numero2;
+        } else {
+            cout << "Erro: divisão por zero não é permitida.\n";
+            return 1;
+        }
+    } else {
+        cout << "Erro: operador inválido.\n";
+        return 1;
+    }
+
+    cout << "Resultado: " << numero1 << " " << operador << " " << numero2 << " = " << resultado << "\n";
+
+    return 0;
+}
+```
+
+## **💡 O que aprendemos nesta aula?**
+1. **Uso de operadores matemáticos: Expandimos nossa calculadora para suportar soma, subtração, multiplicação e divisão.
+2. **Estruturas condicionais: Aprendemos como usar if, else if, e else para verificar condições e tomar decisões no código.
+3. **Tratamento de erros: Implementamos verificações para evitar divisão por zero e tratar operadores inválidos.
+4. **Código interativo: Tornamos o programa mais dinâmico, recebendo entradas do usuário e exibindo resultados personalizados.
+
+# **🔧 Próximos passos**
+Na próxima aula, vamos:
+
+- **Adicionar loops para permitir múltiplas operações sem reiniciar o programa.**
+- **Introduzir funções para organizar melhor nosso código.**
+- **Fique ligado! 🚀**
+
+
 ## **📣 Contribuições e Feedback**  
 Se você tiver ideias, melhorias ou até encontrou um bug (a nossa calculadora ainda é iniciante, tá? 😅), fique à vontade para abrir uma **issue** ou enviar um **pull request**.  
 
