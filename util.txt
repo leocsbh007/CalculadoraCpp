@@ -1,6 +1,6 @@
-Objetivos da Aula:
+objetivos da Aula 5:
 
-1 - Compreender Operadores Matemáticos: Demonstrar como utilizar operadores básicos (+, -, *, /) em cálculos no C++.
-2 - Aprender o Uso de Condicionais: Ensinar como usar estruturas de decisão (if, else if, else) para controlar o fluxo do programa com base nas escolhas do usuário.
-3 - Construir uma Calculadora Interativa: Desenvolver um programa funcional onde o usuário escolhe a operação desejada e fornece os números para o cálculo.
-4 - Tratar Erros de Entrada: Mostrar como validar condições, como evitar divisão por zero e lidar com operadores inválidos, exibindo mensagens claras ao usuário.
+1 - Entender a Estrutura de uma Função: Aprender como declarar, definir e chamar funções em C++, organizando o código de maneira modular.
+2 - Trabalhar com Parâmetros e Retorno de Valores: Saber como passar dados para uma função e como obter resultados de volta para o programa principal.
+3 - Compreender o Escopo de Variáveis: Diferenciar variáveis locais e globais, e entender como elas impactam o comportamento do programa.
+4 - Desenvolver um Projeto Prático: Aplicar os conceitos aprendidos na criação de uma calculadora modular que utilize funções para realizar operações matemáticas.
