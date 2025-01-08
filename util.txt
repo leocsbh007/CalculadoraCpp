@@ -1,6 +1,9 @@
 objetivos da Aula 5:
 
-1 - Entender a Estrutura de uma Função: Aprender como declarar, definir e chamar funções em C++, organizando o código de maneira modular.
-2 - Trabalhar com Parâmetros e Retorno de Valores: Saber como passar dados para uma função e como obter resultados de volta para o programa principal.
-3 - Compreender o Escopo de Variáveis: Diferenciar variáveis locais e globais, e entender como elas impactam o comportamento do programa.
-4 - Desenvolver um Projeto Prático: Aplicar os conceitos aprendidos na criação de uma calculadora modular que utilize funções para realizar operações matemáticas.
+1. Entender a representação e manipulação básica de strings em C++, incluindo criação, atribuição e acesso a caracteres.
+
+2. Dominar o uso de funções e métodos comuns da classe std::string para realizar operações como concatenação, comparação, busca e extração de substrings.
+
+3. Aprender a lidar com entrada e saída de strings, incluindo leitura de dados do usuário e formatação de strings para exibição.
+
+4. Explorar boas práticas de programação com strings, como evitar erros comuns e otimizar o uso de memória em operações com grandes volumes de texto.

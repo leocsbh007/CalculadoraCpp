@@ -3,7 +3,6 @@
 
 using namespace std;
 
-// Declarações das funções
 void menu();
 int soma(int a, int b);
 int subtracao(int a, int b);
@@ -12,18 +11,14 @@ float divisao(int a, int b);
 
 int main(){
     setlocale(LC_ALL, "Portuguese_Brazil");
-
     int opcao, num1, num2;
-
     do{
         menu();
         cin >> opcao;
-
         if (opcao >= 1 && opcao <=4){
             cout << "Digite dois numeros: \n";
             cin >> num1 >> num2;
         }
-
         switch(opcao){
             case 1:
                 cout << "Resultado: " << soma(num1, num2) << endl;
@@ -40,22 +35,18 @@ int main(){
                     break;
                 }
                 cout << "Erro: Divisão por zero!\n";
-                break;
-                
+                break;                
             case 5: 
                 cout << "Encerrando o programa.\n";
-                break;
-                
+                break;                
             default:
                 cout << "Opção Invalida!!!\n";
                 cout << "O programa será encerrado.\n";
                 opcao = 5;                
         }
-    }while (opcao != 5);
-    
+    }while (opcao != 5);        
     return 0;
 }
-
 
 void menu(){
     cout << "\nCalculadora Modular\n";
